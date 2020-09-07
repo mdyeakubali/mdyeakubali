@@ -11,6 +11,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href='https://mdminhazulhaque.github.io/solaimanlipi/css/solaimanlipi.css' rel='stylesheet' type='text/css'>
     <style>
         body {
@@ -20,7 +21,7 @@
             min-height: 90vh;
         }
     </style>
-    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5f56226d9016ca001527010c&product=inline-share-buttons' async='async'></script>
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5f56226d9016ca001527010c&product=inline-share-buttons" async="async"></script>
 
 </head>
 
@@ -36,20 +37,52 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-<!--                <li class="nav-item active">-->
-<!--                    <a class="nav-link" href="#">Home-->
-<!--                        <span class="sr-only">(current)</span>-->
-<!--                    </a>-->
-<!--                </li>-->
-<!--                <li class="nav-item">-->
-<!--                    <a class="nav-link" href="#">About</a>-->
-<!--                </li>-->
-<!--                <li class="nav-item">-->
-<!--                    <a class="nav-link" href="#">Services</a>-->
-<!--                </li>-->
-<!--                <li class="nav-item">-->
-<!--                    <a class="nav-link" href="#">Contact</a>-->
-<!--                </li>-->
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-facebook-square"></i>
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-twitter-square"></i>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-google-plus-square"></i>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-telegram"></i>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-skype"></i>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-reddit"></i>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
@@ -91,7 +124,7 @@
         <div class="col"></div>
         <div class="col"></div>
     </div>
-    <div class="row">
+    <div class="row pt-3">
         <div class="sharethis-inline-share-buttons"></div>
     </div>
     <div class="row py-3">
@@ -104,10 +137,8 @@
 <!-- Bootstrap core JavaScript -->
 <script src="static/jquery/jquery.slim.min.js"></script>
 <script src="static/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" >var scrolltotop={setting:{startline:100,scrollto:0,scrollduration:1e3,fadeduration:[500,100]},controlHTML:'<img src="https://i1155.photobucket.com/albums/p559/scrolltotop/arrow27.png" />',controlattrs:{offsetx:5,offsety:5},anchorkeyword:"#top",state:{isvisible:!1,shouldvisible:!1},scrollup:function(){this.cssfixedsupport||this.$control.css({opacity:0});var t=isNaN(this.setting.scrollto)?this.setting.scrollto:parseInt(this.setting.scrollto);t="string"==typeof t&&1==jQuery("#"+t).length?jQuery("#"+t).offset().top:0,this.$body.animate({scrollTop:t},this.setting.scrollduration)},keepfixed:function(){var t=jQuery(window),o=t.scrollLeft()+t.width()-this.$control.width()-this.controlattrs.offsetx,s=t.scrollTop()+t.height()-this.$control.height()-this.controlattrs.offsety;this.$control.css({left:o+"px",top:s+"px"})},togglecontrol:function(){var t=jQuery(window).scrollTop();this.cssfixedsupport||this.keepfixed(),this.state.shouldvisible=t>=this.setting.startline?!0:!1,this.state.shouldvisible&&!this.state.isvisible?(this.$control.stop().animate({opacity:1},this.setting.fadeduration[0]),this.state.isvisible=!0):0==this.state.shouldvisible&&this.state.isvisible&&(this.$control.stop().animate({opacity:0},this.setting.fadeduration[1]),this.state.isvisible=!1)},init:function(){jQuery(document).ready(function(t){var o=scrolltotop,s=document.all;o.cssfixedsupport=!s||s&&"CSS1Compat"==document.compatMode&&window.XMLHttpRequest,o.$body=t(window.opera?"CSS1Compat"==document.compatMode?"html":"body":"html,body"),o.$control=t('<div id="topcontrol">'+o.controlHTML+"</div>").css({position:o.cssfixedsupport?"fixed":"absolute",bottom:o.controlattrs.offsety,right:o.controlattrs.offsetx,opacity:0,cursor:"pointer"}).attr({title:"Scroll to Top"}).click(function(){return o.scrollup(),!1}).appendTo("body"),document.all&&!window.XMLHttpRequest&&""!=o.$control.text()&&o.$control.css({width:o.$control.width()}),o.togglecontrol(),t('a[href="'+o.anchorkeyword+'"]').click(function(){return o.scrollup(),!1}),t(window).bind("scroll resize",function(t){o.togglecontrol()})})}};scrolltotop.init();</script>
 <noscript>Not seeing a <a href="https://www.scrolltotop.com/">Scroll to Top Button</a>? Go to our FAQ page for more info.</noscript>
-
 
 </body>
 
